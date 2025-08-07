@@ -38,7 +38,7 @@ export const siteConfig: SiteConfig = {
   favicon: [    
      {
        src: 'https://s1.imagehub.cc/images/2025/08/07/0690b26ee090bc5d56693e192eabbbe2.png',
-       sizes: '120x120',              
+       sizes: '128x128',              
      }
   ]
 }
