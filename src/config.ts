@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'https://s1.imagehub.cc/images/2025/04/20/2973c9427cc44c22dbd3578ed2445407.md.jpeg',
+    src: 'https://s1.imagehub.cc/images/2025/08/07/a75e8c038f6f86b88a767fda8bb31d88.webp',
     position: 'center',      
     credit: {
       enable: false,         
@@ -38,7 +38,7 @@ export const siteConfig: SiteConfig = {
   favicon: [    
      {
        src: 'https://s1.imagehub.cc/images/2025/08/07/0690b26ee090bc5d56693e192eabbbe2.png',
-       sizes: '128x128',              
+       sizes: '120x120',              
      }
   ]
 }
@@ -50,7 +50,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: '随机图',
-      url: 'https://pic.onani.cn',
+      url: 'https://www.loliapi.com/acg/',
       external: true,
     },
     {
