@@ -2,7 +2,7 @@
 title: 使用Termux搭建cloudreve
 published: 2025-08-07
 description: ' 使用Termux搭建cloudreve'
-image: 'https://www.loliapi.com/acg/'
+image: 'https://www.dmoe.cc/random.php'
 tags: [cloudreve,Termux,个人网盘]
 category: 'Termux'
 draft: false 
