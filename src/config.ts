@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'https://www.imagehub.cc/image/hf.IZWNvG',
+    src: 'https://s1.imagehub.cc/images/2025/04/20/2973c9427cc44c22dbd3578ed2445407.md.jpeg',
     position: 'center',      
     credit: {
       enable: false,         
