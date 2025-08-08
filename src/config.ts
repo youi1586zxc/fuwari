@@ -8,7 +8,7 @@ import { LinkPreset } from './types/config'
 
 // 新增 expressiveCode 主题配置
 export const expressiveCodeConfig = {
-  theme: "github-dark", // 可根据喜好替换为其他主题，如 "github-light", "vscode-dark" 等
+  theme: "github-light", // 可根据喜好替换为其他主题，如 "github-light", "vscode-dark" 等
 };
 
 export const siteConfig: SiteConfig = {
