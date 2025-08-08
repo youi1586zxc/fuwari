@@ -19,7 +19,7 @@ lang: ''
  
 为保证安装的软件是最新版本，修复潜在问题，在Termux终端输入并执行以下代码：
 
-```复制
+```javascript
 apt update && apt upgrade
 
 ```
@@ -28,26 +28,26 @@ apt update && apt upgrade
 安装依赖
 Cloudreve运行依赖特定软件环境，我们需安装必要工具，如`unzip`用于解压文件，`wget`用于下载文件 ，在终端输入命令安装：
 
-```复制
+```javascript
 apt install wget&&apt install unzip
 ```
 
 创建一个文件夹
 
-```复制
+```javascript
 mkdir cloud
 ```
 
 进入文件夹目录
 
-```复制
+```javascript
 cd cloud
 ```
 下载Cloudreve安装包
 
 使用`wget`下载Cloudreve安装包，在Termux终端输入命令（注意：需根据Cloudreve官方最新发布版本链接调整）：
 
-```复制
+```javascript
 wget https://github.com/cloudreve/Cloudreve/releases/download/3.8.3/cloudreve_3.8.3_linux_arm64.tar.gz
 ```
 
@@ -56,20 +56,20 @@ wget https://github.com/cloudreve/Cloudreve/releases/download/3.8.3/cloudreve_3.
 解压安装包
 下载完成后，解压压缩包，输入以下命令：
 
-```复制
+```javascript
 tar -zxvf cloudreve_3.8.3_linux_arm64.tar.gz
 ```
 
 赋予cloudreve权限
 
-```复制
+```javascript
 chmod +x./cloudreve
 ```
 
 启动Cloudreve
 一切就绪后，在Termux终端输入命令启动Cloudreve：
 
-```复制
+```javascript
 ./cloudreve
 ```
 
@@ -80,43 +80,43 @@ cpolar它支持http/https/tcp协议，可以永久免费使用不限制流量，
 
 创建一个sources.list.d的文件夹:
 
-```复制
+```javascript
 mkdir -p $PREFIX/etc/apt/sources.list.d
 ```
 
 添加cpolar下载源文件
 
-```复制
+```javascript
 echo "deb [trusted=yes] http://termux.cpolar.com termux extras" >> $PREFIX/etc/apt/sources.list.d/cpolar.list
 ```
 
 更新仓库
 
-```复制
+```javascript
 pkg update
 ```
 
 安装cpolar
 
-```复制
+```javascript
 pkg install cpolar
 ```
 
 安装Termux服务，注意: 安装完成后记得关闭重启一下Termux才生效!!
 
-```复制
+```javascript
 pkg install termux-services
 ```
 
 设置开机自启
 
-```复制
+```javascript
 sv up cpolar
 ```
 
 cpolar.yml主配置文件路径位置
 
-```复制
+```javascript
 $PREFIX/etc/cpolar/cpolar.yml
 ```
 
