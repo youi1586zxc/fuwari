@@ -82,8 +82,14 @@ export type LIGHT_DARK_MODE =
 	| typeof DARK_MODE
 	| typeof AUTO_MODE;
 
+// 修正：合并重复的 BlogPostData 定义，确保语法正确
 export type BlogPostData = {
 	body: string;
+	prevTitle?: string;
+	prevSlug?: string;
+	pinned?: boolean; // 新增置顶字段
+	nextTitle?: string;
+	nextSlug?: string;
 	title: string;
 	published: Date;
 	description: string;
@@ -91,10 +97,6 @@ export type BlogPostData = {
 	draft?: boolean;
 	image?: string;
 	category?: string;
-	prevTitle?: string;
-	prevSlug?: string;
-	nextTitle?: string;
-	nextSlug?: string;
 };
 
 export type ExpressiveCodeConfig = {
