@@ -13,7 +13,7 @@ export const expressiveCodeConfig = {
 
 export const siteConfig: SiteConfig = {
   title: 'QuiYu Blog',
-  subtitle: '随心所欲！',
+  subtitle: '是一个聚焦生活杂项的随性空间，收录日常感悟、兴趣碎片与多元思考，笔触轻松，内容不拘，为读者提供自在惬意的阅读角落。！',
   lang: 'zh_CN',         
   themeColor: {
     hue: 355,         
