@@ -21,7 +21,7 @@ export const siteConfig: SiteConfig = {
   },
   // 新增 TOC 配置（解决 "toc.enable 未定义" 错误）
   toc: {
-    enable: true, // 启用目录功能
+    enable: true, // 启用目录
     // 可选：可添加宽度等其他配置（根据主题需求）
     // width: "240px"
   },
