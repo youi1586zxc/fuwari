@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'https://s1.imagehub.cc/images/2025/08/10/765dd88957897e6faf829f0978e70ea8.jpg',
+    src: 'https://cloud.quiyu.top/api/raw/fuwari/765dd88957897e6faf829f0978e70ea8.jpg',
     position: 'center',      
     credit: {
       enable: false,         
@@ -37,7 +37,7 @@ export const siteConfig: SiteConfig = {
   },
   favicon: [    
      {
-       src: 'https://s1.imagehub.cc/images/2025/08/07/0690b26ee090bc5d56693e192eabbbe2.png',
+       src: 'https://cloud.quiyu.top/api/raw/fuwari/gui.png',
        sizes: '128x128',              
      }
   ]
