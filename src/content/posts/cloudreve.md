@@ -2,7 +2,7 @@
 title: 使用Termux搭建cloudreve
 published: 2025-08-07
 description: '详细介绍如何在Termux环境下搭建Cloudreve个人网盘，包括依赖安装、配置优化及远程访问设置'
-image: 'https://www.dmoe.cc/random.php'
+image: 'https://www.dmoe.cc/random.php?t=<%= Date.now() %>&seed=termux-cloudreve'
 tags: [cloudreve, Termux, 个人网盘, 服务器搭建, Android]
 category: 'Termux'
 draft: false
